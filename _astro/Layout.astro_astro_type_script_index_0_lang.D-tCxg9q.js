@@ -1,0 +1,1 @@
+document.querySelector(`[data-season-selector]`)?.addEventListener(`change`,e=>{let t=e.currentTarget.value;t&&window.location.assign(t)});
